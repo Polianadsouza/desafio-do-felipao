@@ -20,4 +20,4 @@ if (pontosDeVida <= 1001) {
     nivel = "radiante"
 }
 
-console.log("O heroi " + nomeHeroi + " está no nivel " + nivel);
+console.log("O heroi " + nomeHeroi + " está no nivel " + nivel);node
