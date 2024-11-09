@@ -2,9 +2,9 @@ let nomeHeroi = "Oliver";
 let pontosDeVida = 7002;
 let nivel;
 
-if (pontosDeVida <= 1001) {
+if (pontosDeVida <= 1000) {
     nivel = "Ferro"
-} else if (pontosDeVida <= 2000) {
+} else if (pontosDeVida >= 1001 && pontosDeVida <= 5000) {
     nivel = "Bronze"
 } else if (pontosDeVida >= 2001 && pontosDeVida <= 5000) {
     nivel = "Prata"
