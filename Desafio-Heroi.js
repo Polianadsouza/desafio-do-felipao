@@ -4,7 +4,7 @@ let nivel;
 
 if (pontosDeVida <= 1000) {
     nivel = "Ferro"
-} else if (pontosDeVida >= 1001 && pontosDeVida <= 5000) {
+} else if (pontosDeVida >= 1001 && pontosDeVida <= 2000) {
     nivel = "Bronze"
 } else if (pontosDeVida >= 2001 && pontosDeVida <= 5000) {
     nivel = "Prata"
