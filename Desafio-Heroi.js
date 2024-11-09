@@ -3,21 +3,21 @@ let pontosDeVida = 7002;
 let nivel;
 
 if (pontosDeVida <= 1001) {
-    nivel = "ferro"
+    nivel = "Ferro"
 } else if (pontosDeVida <= 2000) {
-    nivel = "bronze"
+    nivel = "Bronze"
 } else if (pontosDeVida >= 2001 && pontosDeVida <= 5000) {
-    nivel = "prata"
+    nivel = "Prata"
 } else if (pontosDeVida >= 5001 && pontosDeVida < 7000 ) {
-    nivel = "ouro"
+    nivel = "Ouro"
 } else if (pontosDeVida >= 7001 && pontosDeVida < 8000) {
-    nivel = "platina"
+    nivel = "Platina"
 } else if (pontosDeVida >= 8001 && pontosDeVida < 9000) {
-    nivel = "ascendente"
+    nivel = "Ascendente"
 } else if (pontosDeVida >= 9001 && pontosDeVida < 10000) {
-    nivel = "imortal"
+    nivel = "Imortal"
 } else if (pontosDeVida >= 10000) {
-    nivel = "radiante"
+    nivel = "Radiante"
 }
 
-console.log("O heroi " + nomeHeroi + " está no nivel " + nivel);node
+console.log("O heroi " + nomeHeroi + " está no nivel " + nivel);
